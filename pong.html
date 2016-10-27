@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Pong</title>
+
+	<script src="pong.js"></script>
+
+	<style>
+		body {
+			font-family: Sans-serif;
+			color: #130813;
+			height: 100%;
+		}
+
+		#wrapper {
+			height: 100%;
+			width: 100%;
+		}
+
+		#canvas{
+			width: 75%;
+			max-height: 100%;
+			float: left;
+		}
+
+		#info {
+			float: right;
+			width: 25%;
+		}
+
+		#info * {
+			margin: 5px 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+	<canvas id="canvas" width=960 height=540 >
+		Your browser does not support HTML5.
+	</canvas>
+	<div id="info">
+		<h1>Pong</h1>
+		<h4>Recreated by Michael Dunleavy</h4>
+		<br/>
+		<h2>Controls</h2>
+		<h4>Player 1</h4>
+		<p>w = up</p>
+		<p>s = down</p>
+		<h4>Player 2</h4>
+		<p>up arrow = up</p>
+		<p>down arrow = down</p>
+	</div>
+	</div>
+</body>
+
+</html>
